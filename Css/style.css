@@ -1,0 +1,840 @@
+
+/**encabezado**/
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+nav{
+    
+    background: rgb(88,60,180);
+    height: 80px;
+    width: 100%;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color: #fff;
+    font-size: 18px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: capitalize;
+}
+
+
+li a:hover{
+    background: rgb(158, 109, 77);
+    transition: .5s;
+}
+
+
+
+
+/**cuerpo**/
+/*aplica color*/
+section.banner2{
+    background: linear-gradient(to left,rgb(100, 76, 180), rgb(88,60,180));
+    padding: 3rem 0;
+}
+/*centra a la derecha el texto*/
+.containerB{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(20rem, 1fr));
+    grid-gap: 2rem;
+}
+/*reducir el tamaño de la imagen*/
+
+.imgbanner{
+    width: 70%;
+}
+/*ajustar la imagen*/
+.col2{
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+/*cambiar parrafo*/
+#txtbanner2{
+    margin: 2rem 0;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    text-align: justify;
+}
+
+
+
+
+.banner{
+    background-image: url('https://e0.pxfuel.com/wallpapers/956/175/desktop-wallpaper-mountain-night-snow-dark-star-snowy-mountain-night.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 3rem 0;
+
+}
+
+
+#txtbanner1{
+    margin: 2rem 0;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    text-align: justify;
+}
+.parrafo1{
+    font-size: 2rem;
+    color: white;
+}
+.titulo1{
+    font-size: 2rem;
+    color: white;
+}
+
+
+
+.frmingreso {
+	padding-right: 20px;
+    border: 2px solid white;
+    display: inline-block;
+}
+input {
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box; 
+}
+
+.btnenviar {
+    background-color: white; 
+    color: rgb(0, 0, 0); 
+    border: 2px solid #ffffff;
+}
+
+.btnenviar:hover {
+    background-color: #59BDF2;
+    color: rgb(250, 250, 250);
+}
+
+
+/*servicios*/
+
+.servicios{
+    padding: 3rem 0;
+}
+
+.subservicios{
+    text-align: center;
+    padding-bottom: 2rem;
+    color: #4c4c4c;
+}
+
+.ContainerS{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(18rem, 1fr));
+    grid-gap: 2rem;
+}
+.boxS{
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 55px 5px rgb(141, 121, 204);
+}
+
+.boxS img{
+    width: 100px;
+}
+
+h3{
+    color: #4c4c4c;
+    margin: 12px 0;
+}
+
+.boxS p{
+    text-align: center;
+}
+
+
+
+
+/*sobre nosotros*/
+section.SobreN{
+    background: linear-gradient(to left,rgb(127, 102, 207), rgb(88,60,180));
+    padding: 3rem 0;
+}
+.container3{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(20rem, 1fr));
+    grid-gap: 2rem;
+}
+#txtbanner3{
+    margin: 2rem 0;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    text-align: justify;
+}
+
+/*Ayuda*/
+.contenedor,
+.wave.contenedor{
+    width: 80%;
+    max-width: 1000px;
+    overflow: hidden;
+    margin: auto;
+    padding: 0 0 80px 0;
+}
+.contenedor{
+    padding: 80px;
+}
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.input{
+    background: transparent;
+    border: 0;
+    color: black;
+    outline: none;
+    border: 2px solid rgb(127, 102, 207);
+    padding: 10px 20px;
+}
+.input::placeholder{
+    color: black;
+    font-family: 'Raleway', 'sans-serif';
+}
+input[type="text"],
+input[type="email"]{
+    display: inline-block;
+    width: 49%;
+    margin-bottom: 30px;
+}
+.form textarea{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+
+/*------------paginaP--------------*/
+
+
+/*Frase*/
+section.frase{
+    background-color: rgb(127, 102, 207);
+}
+
+.tabla{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+    margin: auto;
+    
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+caption{
+    color: white;
+}
+
+/*Necesitas algo*/
+
+.boxp{
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 55px 6px rgb(74, 56, 141); 
+    
+}
+
+
+.boxp:hover {
+    
+    background-color: rgb(147, 49, 167); 
+    border: 2px solid #fafafa;
+    
+}
+
+.despejarcolor{
+    color: white;
+}
+
+/*como te sientes*/
+
+section.sentimiento{
+    background-color: rgb(127, 102, 207);
+}
+
+.sentir{
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 80px;
+    background-color: white;
+    margin: auto;
+    
+
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.sentir:hover{
+    background-color: rgb(232,228,236);
+}
+
+
+/*Chat ia*/
+
+section.boton{
+    background-color: 
+    rgb(232,228,236);
+}
+
+.hablaria{
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    background-color: white;
+    margin: auto;
+    
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+}
+.texboton{
+    text-align: justify;
+    margin: 2%;
+}
+
+.hablaria:hover{
+    background-color: rgb(223, 219, 238);
+    border:rgb(223, 219, 238) ;
+}
+
+/*--------Musica----------*/
+
+.textoamplio{
+    background-color: rgb(127, 102, 207);
+    color: white;
+    text-align: center;
+
+}
+
+
+/*---------Meditación---------*/
+
+.orden{
+    margin: 3%;
+}
+
+.textpaso{
+    
+    margin-left: 200px;
+}
+.textintro{
+    margin-left: 250px;
+    
+
+}
+
+
+
+.par{
+    background-color: rgb(127, 102, 207);
+    color: white;
+}
+
+.video{
+    text-align: center;
+}
+
+
+/* pagina de progreso*/
+
+.opi{
+    border: 1px solid black;
+    border-collapse:collapse ;
+    padding: 15px;
+    
+
+}
+
+/*estadistica*/
+.imagenesta{
+    text-align: center;
+}
+
+/* suuario*/
+
+.centrado{
+    text-align: center;
+}
+
+.circulo{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    
+}
+
+
+.conteiner{
+    background-color: #ffffff;
+    height: 350px;
+    width: 350px;
+    margin-left: 350px;
+}
+
+.options{
+    
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+    text-align: justify;
+    display: inline-block;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 250px;
+    
+}
+.btn {
+    border: 1px solid rgb(210, 202, 235);
+    border-radius: 10px;
+    background-color: rgb(210, 202, 235);
+    margin: auto;
+    color: black;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.btn:hover{
+
+    background-color: rgb(177, 165, 223);
+    border:rgb(223, 219, 238) ;
+
+}
+    
+.ingresadatos{
+    text-align: center;
+    
+}
+
+
+
+.privacidad{
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+    text-align: justify;
+    display: inline-block;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 250px;
+
+}
+.priva{
+    text-align: justify;
+    height: 150px;
+    width: 400px;
+    margin-left: 350px;
+}
+
+
+
+.Medotopago{
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+    text-align: justify;
+    display: inline-block;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 250px;
+
+}
+
+.recuadropago{
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    
+    text-align: justify;
+    display: inline-block;
+    width: 400px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 350px;
+    
+}
+
+/*------Tecnica de Respiración--------*/
+
+section.frasemoti{
+    background-color:  rgb(232,228,236);
+}
+
+
+.respiracion{
+    
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    
+    
+    
+    
+}
+.respira{
+    text-align: center;
+}
+
+/*-----COMUNIDAD-----*/
+.boxSE{
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 55px 5px rgb(141, 121, 204);
+    
+    
+}
+
+.boxSE img{
+    width: 100px;
+}
+
+.boxSE:hover{
+    background-color:rgb(189, 179, 221) ;
+}
+
+
+/*-----cahIA---------*/
+
+.chat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(#8D79CC 0%, #8D79CC 130px,   #d9dbd5 130px, #d9dbd5 100%);
+}
+
+.contenidoia{
+    position: relative;
+    width: 1396px;
+    max-width: 100%;
+    height: calc(100vh - 40px);
+    background: #fff;
+    box-shadow:  0 1px 1px 0 rgba(0,0,0,0,06), 0 2px 5px 0 rgba(0,0,0,0,06) ;
+    display: flex;
+}
+
+.contenidoia .lefside{
+    position: relative;
+    flex: 30%;
+    background: #fff;
+    border-right: 1px solid rgba(0,0,0,0,02);
+    
+}
+
+.contenidoia .rightside{
+    position: relative;
+    flex: 70%;
+    background: #e5ddd5;
+    
+}
+
+.header{
+    position: relative;
+    width: 100%;
+    height: 60px;
+    background: #ededed;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+    padding-top: 5px;
+
+
+}
+
+.usering{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.cover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.nav_icons{
+    display: flex;
+    margin-left: 209px;
+    margin-top: -30px;
+}
+.nav_icons li{
+    display: flex;
+    list-style:none;
+    cursor: pointer;
+    color: #59BDF2;
+    margin-left: 22px;
+}
+.busqueda{
+    position: relative;
+    
+    background-color: #f6f6f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15px;
+
+}
+.busqueda div{
+    width: 90%;
+
+}
+
+.busqueda div input{
+    width: 90%;
+    outline: none;
+    border: none;
+    background: white;
+    padding: 6px;
+    height: 38px;
+    border-radius: 30px;
+    font-size: 14px;
+    padding-left: 40px;
+}
+.chatlista{
+    position: relative;
+    height: calc(100% - 110px);
+    overflow: auto;
+    
+
+
+}
+.chatlista .bloque{
+    position: relative;
+    width: 100%;
+    display: flex;
+    
+    align-items: center;
+    pad: 15px ;
+    border-bottom: 1px solid rgba(0,0,0,0,06);
+    cursor: pointer;
+}
+
+.chatlista .bloque:hover{
+    background: #dee8ee;
+}
+
+
+.chatlista .bloque .imgbloque{
+    position: relative;
+    width: 45px;
+    height: 45px;
+    overflow: hidden;
+    border-radius: 50%;
+    padding-right: 50px;
+    padding-top: 50px;
+
+}
+
+.chatlista .bloque .detalles{
+    position: relative;
+    width: 100%;
+}
+
+.chatlista .bloque .detalles .listhead{
+    display: flex;
+
+    justify-content: space-between;
+    margin-bottom: 5px;
+    margin-left: 10px;
+
+}
+.chatlista .bloque .detalles .listhead h4{
+    font-size: 1.1em;
+    font-weight: 600;
+    color: #8D79CC;
+}
+
+.chatlista .bloque .detalles .listhead .tiempo{
+    font-size: 0.80em;
+    color: #748691;
+    padding-right: 20px;
+}
+
+
+
+
+.mensajes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.mensajes p {
+    color: #000000;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    font-size: 0.9em;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+
+.mensajes b{
+    background: #06d755 ;
+    color: fff;
+    min-width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.75em;
+    margin-right: 20px;
+}
+
+
+
+
+.useringright{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+
+
+
+.imgtexto{
+
+    
+   display: flex;
+   justify-content: left;
+   margin-left: 20px;
+   margin-top: 10px;
+   
+    
+    
+}
+
+
+
+
+
+.useringimg{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    border-radius: 50%;
+    
+}
+
+.imgtexto h4{
+    font-weight: 400;
+    line-height: 1.2em;
+    margin-left: 15px;
+    
+}
+
+.imgtexto h4 span{
+    font-size: 0.8em;
+    color: #748691;
+    
+}
+
+.nav_iconsright{
+    display: flex;
+    margin-left: 900px;
+    margin-top: -30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.chatbox{
+
+    padding: 50px;
+    margin: 5px 0;
+    height: 20px;
+
+}
+
+
+
+.bloque_mensajetuyo{
+    
+    width: 900px;
+   
+    text-align: right;
+    margin: 0;
+    padding: 25px;
+}
+
+.mensajeia{
+    background-color: #06d755;
+}

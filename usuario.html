@@ -1,0 +1,153 @@
+<!DOCTYPE html> 
+<html lang="en">
+
+    <head>
+        <script src="scripts.js"></script>
+        <title>Cálm Sleep</title>
+       
+        <meta charset="UTF-8">
+        <meta name="keywords" content ="html,web">
+        <meta name="description" content="creacion de pagina web">
+        <meta name="author" content="William Rodriguez">
+        <link href="Css/style.css" rel="stylesheet">
+
+
+        <link rel="icon" type="imagenes/jpg" href="imagenes/logo.png">
+    </head>
+    
+    <body>
+        <header>       
+            <nav>
+                <ul>
+                    <li></li>
+                    <li><a href="paginaP.html">Inicio</a></li>
+                    <li><a href="comunidad.html" >Grupo</a></li>
+                    <li><a href="progreso.html" >Progreso</a></li>
+                    <li><a href="paginaIA.html">ChatIA</a></li>
+                </ul>
+            </nav>
+        </header>
+
+
+
+        <section class="nombre-usuario">
+            <div class="centrado"><br><br>
+                <a href="paginaIA.html">
+                     <img src="imagenes/usuario.jpeg" class="circulo" alt="foto" ><br><br>
+                </a>
+               
+                <h3>Foto de perfil</h3><br>
+                <form>
+                    <label for="archivo">selecciona una foto de perfil</label>
+                    <input type="file" id="archivo" name="archivo" >
+                </form>
+                
+            </div>
+        </section>
+
+
+        
+
+        <div class="options">
+            <button id="btnshow" class="btn" onclick="showhide()">
+                Datos de tu perfil
+            </button>
+
+
+        </div>
+        <div class="conteiner">
+            
+            <fieldset class="ingresadatos">
+                <legend> ingresa tus datos</legend>
+
+                <label for="nombre"></label><br>
+                <input type="text" id="nombre" name="nombre" size="10" placeholder="ingresar tu nombre" autofocus required>
+                
+                <label for="apellido"></label><br>
+                <input type="text" id="apellido" name="apellido" placeholder="ingresa tu apellido" required>
+                
+                <label for="contrasena"></label><br>
+                <input type="password" id="contrasena" name="contrasena" placeholder="ingresa tu contrasena" required maxlength="4"><br>
+                
+                <label for="correo"></label><br>
+                <input type="email" id="correo" name="correo" placeholder="ingresa tu gmail" size="30"><br>
+                <input type="submit" value="enviar"><br>
+
+            </fieldset>
+        </div>
+        <br><br><br>
+
+
+
+
+        <div class="privacidad">
+            <button id="btnpriva" class="btn" onclick="privaci()">
+                terminos y condiciones
+            </button>
+
+        </div>
+
+        <div class="priva">
+            <p>La tarifa por los servicios y cualquier otro cargo que pueda incurrir en relación 
+                con tu uso del servicio, como los impuestos y las posibles tarifas de transacción,
+                se cobrarán mensualmente a tu método de pago.
+            </p><br>
+            <p>atte. Calm Phere</p>
+        </div>
+        <br>
+
+
+
+
+        <div class="Medotopago">
+            <button id="btnpago" class="btn" onclick="pago()">
+                Seleccionar metodo de pago 
+            </button>
+
+        </div><BR>
+
+        <section class="pagos">
+            <form >
+                <fieldset class="recuadropago">
+                    <legend>Metodo de Pagos</legend>
+                
+                    <label>Elegir metodo de pago:</label><br><br>
+
+
+                    <input type="radio" id="PAYPAL" name="favorito" value="PAYPAL">
+                    <label  for="PAYPAL">PAYPAL</label><br>
+
+                    <input type="radio" id="MASTERCARD" name="favorito" value="MASTERCARD">
+                    <label  for="MASTERCARD">MASTERCARD</label><br>
+
+                    <input type="radio" id="VISA" name="favorito" value="VISA">
+                    <label  for="VISA">VISA</label><br><br>
+                </fieldset>
+
+            </form>
+        </section>
+
+
+        
+
+
+
+
+
+        
+
+
+
+
+
+
+
+        
+
+
+
+
+
+    </body>
+
+</html>
